@@ -14,6 +14,6 @@ This code calls a function named getpumps() 1000 times and displays the time tak
     print( timeit.timeit(stmt=findpumps.getpumps, number=1000) )
 
 ### Watchdog
-Python API library and shell utilities to monitor file system events.
+A cross-platform Python API library and shell utilities to monitor file system events.
 https://python-watchdog.readthedocs.io/en/v0.10.3/
 
