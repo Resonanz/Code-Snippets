@@ -5,9 +5,7 @@ Last updated: Mar 2021
 
 
 ### Python Naming Convention
-The style guide for Python is based on [Guido’s ](https://www.python.org/doc/essays/styleguide/)naming convention recommendations.
-
-List of covered sections:
+The style guide for Python is based on [Guido’s ](https://www.python.org/doc/essays/styleguide/)naming convention recommendations. List of covered sections:
 
 * [Class Naming](../python/class-naming.md)
 * [Constant Naming](../python/constant-naming.md)
