@@ -40,3 +40,9 @@ Can Return multiple values.
 
     def return_multiple():
         return sample1, sample2, sample3
+
+### Exit-ing from a script with a message
+https://stackoverflow.com/questions/22633544/how-to-throw-error-and-exit-with-a-custom-message-in-python
+
+    import sys
+    sys.exit('Exited because your operating system is not supported.')
