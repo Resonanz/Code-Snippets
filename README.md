@@ -29,3 +29,14 @@ The following command should get a list of ports (https://pyserial.readthedocs.i
 ### Listing available serial ports
 
     https://stackoverflow.com/questions/12090503/listing-available-com-ports-with-python
+
+### Returning values from functions
+If Return is missing, None will be returned by default.
+
+    def return_none_explicitly():
+        return None
+        
+Can Return multiple values.
+
+    def return_multiple():
+        return sample1, sample2, sample3
