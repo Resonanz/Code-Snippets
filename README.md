@@ -1,5 +1,7 @@
 # Code Snippets (Python)
 
+Last updated: Mar 2021
+
 ### Glob
     import glob
     for g in glob.glob("/dev/tty.usbmodem*"):
