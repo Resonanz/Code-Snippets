@@ -36,7 +36,14 @@ The style guide for Python is based on [Guido’s ](https://www.python.org/doc/e
     import glob
     for g in glob.glob("/dev/tty.usbmodem*"):
         print(g)
-        
+
+### SubStrings
+    if 'some_text' in some_string:
+        do_something
+
+    if ('some_text' and 'some_more_text') in some_string:
+        do_something
+
 ### Timeit
 This code calls a function named getpumps() 1000 times and displays the time taken in seconds
 
