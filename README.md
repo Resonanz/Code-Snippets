@@ -111,15 +111,15 @@ To activate the environment, use the following:
     source folder_name/bin/activate   (Mac and Linux)     <<< need to test this >>>
 
 Now that we are working within an environment, install environment specific tools:
-
+```
     pip install PyQt5
     pip install PyQt5Designer          GUI designer for Qt
     pip install pyinstaller            makes platform specific executables fom .py files
-
+```
 To convert PyQt Designer .ui files into .py files, use:
 
-    '''pyuic5 -x filename.ui -o filename.py'''
+    ```pyuic5 -x filename.ui -o filename.py```
 
 To convert .py files into an executable file (destination = dist folder), use:
 
-```pyinstaller --onefile filename.py```
+    ```pyinstaller --onefile filename.py```
