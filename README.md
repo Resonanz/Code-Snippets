@@ -98,7 +98,9 @@ https://stackoverflow.com/questions/22633544/how-to-throw-error-and-exit-with-a-
     * pip list package
 
 ### Setting up a Python PyQt development environment
-* install Python into C:\PythonX.X (not the hideous long path suggested by the installer)
+* Download official Python installer and install into 
+    * WINDOWS: C:\PythonX.X (not the hideous long path suggested by the installer)
+    * MAC/LINUX: ???
     * Make sure the installer adds the folder above to the path
 
 * Create environments to work in. Use the following to create an environment inside folder_name:
