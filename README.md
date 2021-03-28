@@ -87,7 +87,7 @@ https://stackoverflow.com/questions/22633544/how-to-throw-error-and-exit-with-a-
     sys.exit('Exited because your operating system is not supported.')
 
 ### Useful pip commands
-
+```
 * pip search package
 * pip install package
 * pip install package requests==2.6.0 (install specific package version)
@@ -96,7 +96,7 @@ https://stackoverflow.com/questions/22633544/how-to-throw-error-and-exit-with-a-
 * pip upgrade package
 * pip show package
 * pip list package
-
+```
 ### Setting up a Python PyQt development environment
 * install Python into C:\PythonX.X (not the hideous long path suggested by the installer)
     * Make sure the installer adds the folder above to the path
@@ -118,8 +118,8 @@ Now that we are working within an environment, install environment specific tool
 
 To convert PyQt Designer .ui files into .py files, use:
 
-    pyuic5 -x filename.ui -o filename.py
+    '''pyuic5 -x filename.ui -o filename.py'''
 
 To convert .py files into an executable file (destination = dist folder), use:
 
-    pyinstaller --onefile filename.py
+'''pyinstaller --onefile filename.py'''
