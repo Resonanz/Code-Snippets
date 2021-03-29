@@ -124,4 +124,7 @@ To convert PyQt Designer .ui files into .py files, use:
 
 To convert .py files into an executable file (destination = dist folder), use:
 
-    pyinstaller --onefile filename.py
+    pyinstaller --windowed (or --w) --onefile filename.py
+        --windowed stops a console (debug?) from opening
+        --onefile generates a single .exe (Windows) or ...? Mac Linux???
+        --upx-dir (if not specified, pyinstaller searches the execution path)  
