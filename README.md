@@ -128,3 +128,15 @@ To convert .py files into an executable file (destination = dist folder), use:
         --windowed stops a console (debug?) from opening
         --onefile generates a single .exe (Windows) or ...? Mac Linux???
         --upx-dir (if not specified, pyinstaller searches the execution path)  
+
+### Setting up Python in VSCode
+* **IMPORTANT** VSCode and PyCharm are a nightmare to figure out in terms of paths and virtual environments. It is critical in VSCode that the Python interpreter be set correctly to the Python.exe file inside the venv, so that the interpreter shown in VSCode (bottom left corner) is like this:
+	Python X.X.X 64-bit ('venv-name': venv) where venv-name is the Folder name (NOT 'venv')
+
+* VSCode can be used to Run and Debug Python code. Click the Run and Debug icon on the LHS pane and click "create a launch.json file" and select "Python file" from the top of the list.
+
+* PowerShell has security !!! So open a PowerShell as Administrator and enter the following, answering "y" (doesn't appear to require "yes to all"):
+
+	    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+		
+* Note that even if you have a venv configured and activated (shown in bottom left corner of VS Code), the console will not be in that venv. So, using pip to install packages will not put those packages into the venv. You need to activate the venv for the session by running in \Scripts folded the activate.ps1 (PowerShell) or activate.bat (DOS shell).
