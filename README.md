@@ -2,6 +2,9 @@
 
 Last updated: Mar 2021
 
+### Matplotlib
+On Linux, matplotlib is easily imported and used, but to show plots requires a suitable GUI to be installed. Tkinter is one option, however a PyQt5 install also works perfectly.  
+
 ### Windows Subsystem for Linux
 The Linux filesystem can be accessed from Windows at: \\wsl$
 
