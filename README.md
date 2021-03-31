@@ -1,6 +1,6 @@
 # Code Snippets (Python)
 
-Last updated: Mar 2021
+Last updated: March 31 2021
 
 ### Matplotlib
 On Linux, matplotlib is easily imported and used, but to show plots requires a suitable GUI to be installed. Tkinter is one option, however a PyQt5 install also works perfectly.  
