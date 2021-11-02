@@ -1,5 +1,6 @@
-// Very simple example of starting 4 async threads
-// Code runs in VS2022 as a Windows console app
+// Very simple example of starting 4 async threads.
+// Code runs in VS2022 as a Windows console app.
+// This code is not for CPU-bound tasks, but rather for IO-bound tasks.
 
 using System;
 using System.Threading.Tasks;
