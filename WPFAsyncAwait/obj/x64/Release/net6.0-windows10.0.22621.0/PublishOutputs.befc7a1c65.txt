@@ -1,0 +1,7 @@
+C:\Users\robwa\GitHub\Code-Snippets\WPFAsyncAwait\bin\publish\WPFAsyncAwait.exe
+C:\Users\robwa\GitHub\Code-Snippets\WPFAsyncAwait\bin\publish\WPFAsyncAwait.dll
+C:\Users\robwa\GitHub\Code-Snippets\WPFAsyncAwait\bin\publish\WPFAsyncAwait.deps.json
+C:\Users\robwa\GitHub\Code-Snippets\WPFAsyncAwait\bin\publish\WPFAsyncAwait.runtimeconfig.json
+C:\Users\robwa\GitHub\Code-Snippets\WPFAsyncAwait\bin\publish\WPFAsyncAwait.pdb
+C:\Users\robwa\GitHub\Code-Snippets\WPFAsyncAwait\bin\publish\Microsoft.Windows.SDK.NET.dll
+C:\Users\robwa\GitHub\Code-Snippets\WPFAsyncAwait\bin\publish\WinRT.Runtime.dll

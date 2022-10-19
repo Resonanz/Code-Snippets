@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "41w7g5blAhSLZn7JhU06+iwy/omZT1n2wuxGq8nLR81+CFRHzEKxjYwVsAnw2c7rL44/fGrxGFGPtJYaTSE2xg==",
+  "dgSpecHash": "y8c9cvhwZO12Jk4kLHIXMZQ3upyyMYKD1YnagaanywVvLXtzlztDz/oZab63Wa+UKGvhDI85OOT13uej7Se+vA==",
   "success": true,
   "projectFilePath": "C:\\Users\\robwa\\GitHub\\Code-Snippets\\WPFAsyncAwait\\WPFAsyncAwait.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\robwa\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.26\\microsoft.windows.sdk.net.ref.10.0.22621.26.nupkg.sha512"
+  ],
   "logs": []
 }
