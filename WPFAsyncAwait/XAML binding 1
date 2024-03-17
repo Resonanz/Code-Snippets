@@ -1,0 +1,14 @@
+https://stackoverflow.com/questions/14339515/binding-slider-value-in-mvvm
+
+This works:
+
+    <StackPanel>
+        <ListBox x:Name="ImageListBox" IsSynchronizedWithCurrentItem="True">
+            <ListBoxItem>Image1</ListBoxItem>
+            <ListBoxItem>Image2</ListBoxItem>
+            <ListBoxItem>Image3</ListBoxItem>
+            <ListBoxItem>Image4</ListBoxItem>
+        </ListBox>
+        <Slider Value="{Binding ElementName=ImageListBox, Path=SelectedIndex}" 
+            Maximum="{Binding ElementName=ImageListBox, Path=Items.Count}"/>
+    </StackPanel>
